@@ -1,0 +1,7 @@
+package_name: "requests"
+repo_url: "https://pypi.org/pypi"
+version: "2.31.0"
+test_mode: false
+test_file: "test_repo.txt"
+max_depth: 2
+output_file: "graph.svg"

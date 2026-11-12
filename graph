@@ -1,0 +1,16 @@
+// Граф зависимостей
+digraph {
+	requests [label=requests]
+	requests -> "charset_normalizer<4,>=2"
+	requests -> "idna<4,>=2.5"
+	requests -> "urllib3<3,>=1.26"
+	requests -> "certifi>=2023.5.7"
+	requests -> "pysocks!=1.5.7,>=1.5.6"
+	requests -> "chardet<8,>=3.0.2"
+	"chardet<8,>=3.0.2" [label="chardet<8,>=3.0.2"]
+	"pysocks!=1.5.7,>=1.5.6" [label="pysocks!=1.5.7,>=1.5.6"]
+	"certifi>=2023.5.7" [label="certifi>=2023.5.7"]
+	"urllib3<3,>=1.26" [label="urllib3<3,>=1.26"]
+	"idna<4,>=2.5" [label="idna<4,>=2.5"]
+	"charset_normalizer<4,>=2" [label="charset_normalizer<4,>=2"]
+}
